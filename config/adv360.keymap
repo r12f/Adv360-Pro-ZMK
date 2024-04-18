@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-         &kp F1             &kp F2     &kp F3    &kp F4      &kp F5  &kp F6              &tog 1                                                             &mo 3  &kp F7                  &kp F8            &kp F9                 &kp F10  &kp F11  &kp F12
-         &trans  &kp LC(LS(GRAVE))  &macro_qa    &kp UP  &macro_ata  &trans            &kp K_PP                                                             &none  &trans  &macro_tmux_split_vert    &macro_tmux_up  &macro_tmux_split_hori   &trans   &trans
-         &trans             &trans   &kp LEFT  &kp DOWN   &kp RIGHT  &trans               &none       &kp LCTRL  &kp LALT                  &trans  &trans   &none  &trans        &macro_tmux_left  &macro_tmux_down       &macro_tmux_right   &trans   &trans
- &kp LC(LS(F1))     &kp LC(LS(F2))     &trans    &trans      &trans  &trans                                        &trans                  &trans                  &trans                  &trans            &trans                  &trans   &trans   &trans
-         &trans          &kp SPACE  &kp ENTER    &trans      &trans                      &trans  &kp LEFT_SHIFT    &trans                  &trans  &trans  &trans                          &trans            &trans                  &trans   &trans   &trans
+     &kp F1             &kp F2     &kp F3    &kp F4      &kp F5  &kp F6              &tog 1                                                             &mo 3  &kp F7                  &kp F8            &kp F9                 &kp F10  &kp F11  &kp F12
+     &trans  &kp LC(LS(GRAVE))  &macro_qa    &kp UP  &macro_ata  &trans            &kp K_PP                                                             &none  &trans  &macro_tmux_split_vert    &macro_tmux_up  &macro_tmux_split_hori   &trans   &trans
+     &trans             &trans   &kp LEFT  &kp DOWN   &kp RIGHT  &trans               &none       &kp LCTRL  &kp LALT                  &trans  &trans   &none  &trans        &macro_tmux_left  &macro_tmux_down       &macro_tmux_right   &trans   &trans
+ &kp LC(F1)         &kp LC(F2)     &trans    &trans      &trans  &trans                                        &trans                  &trans                  &trans                  &trans            &trans                  &trans   &trans   &trans
+     &trans          &kp SPACE  &kp ENTER    &trans      &trans                      &trans  &kp LEFT_SHIFT    &trans                  &trans  &trans  &trans                          &trans            &trans                  &trans   &trans   &trans
             >;
         };
 
