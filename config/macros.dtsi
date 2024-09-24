@@ -116,7 +116,7 @@ macro_tmux_copy: macro_tmux_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_copy";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp [>;
+bindings = <&kp LC(B)>, <&kp LBKT>;
 };
 macro_tmux_w0: macro_tmux_w0{
 compatible = "zmk,behavior-macro";
@@ -182,7 +182,7 @@ macro_tmux_wclose: macro_tmux_wclose{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_wclose";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp &>;
+bindings = <&kp LC(B)>, <&kp LC(7)>;
 };
 macro_tmux_zoom: macro_tmux_zoom{
 compatible = "zmk,behavior-macro";
