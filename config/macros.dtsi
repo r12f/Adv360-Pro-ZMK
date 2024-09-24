@@ -178,9 +178,21 @@ label = "macro_tmux_w9";
 #binding-cells = <0>;
 bindings = <&kp LC(B)>, <&kp 9>;
 };
+macro_tmux_wclose: macro_tmux_wclose{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_wclose";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp &>;
+};
 macro_tmux_zoom: macro_tmux_zoom{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_zoom";
 #binding-cells = <0>;
 bindings = <&kp LC(B)>, <&kp ENTER>;
+};
+macro_tmux_pclose: macro_tmux_pclose{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_pclose";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp x>;
 };
