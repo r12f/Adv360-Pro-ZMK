@@ -122,77 +122,77 @@ macro_tmux_w0: macro_tmux_w0{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w0";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 0>;
+bindings = <&kp LC(B)>, <&kp N0>;
 };
 macro_tmux_w1: macro_tmux_w1{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w1";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 1>;
+bindings = <&kp LC(B)>, <&kp N1>;
 };
 macro_tmux_w2: macro_tmux_w2{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w2";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 2>;
+bindings = <&kp LC(B)>, <&kp N2>;
 };
 macro_tmux_w3: macro_tmux_w3{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w3";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 3>;
+bindings = <&kp LC(B)>, <&kp N3>;
 };
 macro_tmux_w4: macro_tmux_w4{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w4";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 4>;
+bindings = <&kp LC(B)>, <&kp N4>;
 };
 macro_tmux_w5: macro_tmux_w5{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w5";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 5>;
+bindings = <&kp LC(B)>, <&kp N5>;
 };
 macro_tmux_w6: macro_tmux_w6{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w6";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 6>;
+bindings = <&kp LC(B)>, <&kp N6>;
 };
 macro_tmux_w7: macro_tmux_w7{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w7";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 7>;
+bindings = <&kp LC(B)>, <&kp N7>;
 };
 macro_tmux_w8: macro_tmux_w8{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w8";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 8>;
+bindings = <&kp LC(B)>, <&kp N8>;
 };
 macro_tmux_w9: macro_tmux_w9{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w9";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp 9>;
+bindings = <&kp LC(B)>, <&kp N9>;
 };
 macro_tmux_wclose: macro_tmux_wclose{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_wclose";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp LC(7)>;
-};
-macro_tmux_zoom: macro_tmux_zoom{
-compatible = "zmk,behavior-macro";
-label = "macro_tmux_zoom";
-#binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp ENTER>;
+bindings = <&kp LC(B)>, <&kp LSHIFT(7)>;
 };
 macro_tmux_pclose: macro_tmux_pclose{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_pclose";
 #binding-cells = <0>;
 bindings = <&kp LC(B)>, <&kp X>;
+};
+macro_tmux_zoom: macro_tmux_zoom{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_zoom";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp Z>;
 };
