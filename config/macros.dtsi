@@ -182,7 +182,7 @@ macro_tmux_wclose: macro_tmux_wclose{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_wclose";
 #binding-cells = <0>;
-bindings = <&kp LC(B)>, <&kp LSHIFT(7)>;
+bindings = <&kp LC(B)>, <&kp LS(7)>;
 };
 macro_tmux_pclose: macro_tmux_pclose{
 compatible = "zmk,behavior-macro";
