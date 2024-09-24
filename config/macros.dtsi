@@ -106,3 +106,81 @@ label = "macro_tmux_resize_right";
 #binding-cells = <0>;
 bindings = <&kp LC(B)>, <&kp LC(RIGHT)>;
 };
+macro_tmux_num: macro_tmux_num{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_num";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp q>;
+};
+macro_tmux_copy: macro_tmux_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_copy";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp [>;
+};
+macro_tmux_w1: macro_tmux_w0{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w1";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 0>;
+};
+macro_tmux_w1: macro_tmux_w1{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w1";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 1>;
+};
+macro_tmux_w2: macro_tmux_w2{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w2";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 2>;
+};
+macro_tmux_w3: macro_tmux_w3{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w3";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 3>;
+};
+macro_tmux_w4: macro_tmux_w4{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w4";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 4>;
+};
+macro_tmux_w5: macro_tmux_w5{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w5";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 5>;
+};
+macro_tmux_w6: macro_tmux_w6{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w6";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 6>;
+};
+macro_tmux_w7: macro_tmux_w7{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w7";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 7>;
+};
+macro_tmux_w8: macro_tmux_w8{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w8";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 8>;
+};
+macro_tmux_w9: macro_tmux_w9{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_w9";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp 9>;
+};
+macro_tmux_zoom: macro_tmux_zoom{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_zoom";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp ENTER>;
+};
