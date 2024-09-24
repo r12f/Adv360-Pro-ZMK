@@ -118,7 +118,7 @@ label = "macro_tmux_copy";
 #binding-cells = <0>;
 bindings = <&kp LC(B)>, <&kp [>;
 };
-macro_tmux_w1: macro_tmux_w0{
+macro_tmux_w1: macro_tmux_w1{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_w1";
 #binding-cells = <0>;
