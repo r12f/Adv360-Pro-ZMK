@@ -82,3 +82,27 @@ label = "macro_tmux_right";
 #binding-cells = <0>;
 bindings = <&kp LC(B)>, <&kp RIGHT>;
 };
+macro_tmux_resize_up: macro_tmux_resize_up{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_resize_up";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp LC(UP)>;
+};
+macro_tmux_resize_down: macro_tmux_resize_down{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_resize_down";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp LC(DOWN)>;
+};
+macro_tmux_resize_left: macro_tmux_resize_left{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_resize_left";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp LC(LEFT)>;
+};
+macro_tmux_resize_right: macro_tmux_resize_right{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_resize_right";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp LC(RIGHT)>;
+};
